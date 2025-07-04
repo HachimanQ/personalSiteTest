@@ -1,0 +1,76 @@
+/* stylelint-disable @stylistic/selector-list-comma-newline-after */
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+.bg-body-secondary {
+  background-image:
+        url(https://miro.medium.com/v2/resize:fit:929/1*MlmDsfvQwDTlNaEE-adwMQ.png);
+  height: 27rem;
+    
+}
+
+.reduceSpace {
+  margin-bottom: 1rem !important;
+}
+
+.padding-left {
+  padding-left: 5rem;
+}
+.responsive {
+  width: 100%;
+  max-width: 65rem;
+  max-height: 40rem;
+  height: auto;
+}
+
+body {
+  padding-bottom: 3rem;
+}
+
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.8rem !important;
+  overflow-y: hidden;
+}
+
+.more-padding-left {
+  padding-left: 2rem;
+}

@@ -1,0 +1,9 @@
+p {
+    color: red;
+}
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  max-height: 20rem;
+  height: auto;
+}

@@ -1,0 +1,35 @@
+.picture {
+    display: flex;
+    justify-content: end !important;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    
+    border-color: rgb(213, 213, 213);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.top-margin-3{
+    margin-top: 3rem;
+}
+
+.more-space {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/*
+.nav-underline .nav-link.active, .nav-underline .show>.nav-link {
+    font-weight: 700;
+    color: var(--bs-nav-underline-link-active-color);
+    border-bottom-color: currentcolor !important;
+}
+    */
+
+    .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.8rem !important;
+        overflow-y: hidden;
+    }

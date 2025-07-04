@@ -1,0 +1,14 @@
+#text {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.word {
+    /* Remove cursor change */
+    cursor: default;
+}
+
+.word.selected {
+    color: green;
+    font-weight: bold;
+}
