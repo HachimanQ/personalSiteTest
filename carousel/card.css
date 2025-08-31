@@ -42,7 +42,7 @@
     width: 325px;
     min-width: 275px;
     margin: 1.25rem 0.75rem;
-    background: white;
+    /*background: white;*/
     transition: all 300ms ease-in-out;
   
     .card-img {

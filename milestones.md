@@ -124,8 +124,22 @@ push to github
 
 
 
-href leri ayarla 
-header kategorileri kısmını sil
-featurette kısmındaki imageleri falan da koy
-git push and make sure it works.
+
+
+siyah yazı fontu beyaz yap
+cardlarda alt kısım href çalışmıyor onu ayarla
+ana sayfa kartları href sıkıntısı
+contact page dark mode sıkıntısı
+Referans kısmını dark mode uygun olcak şekilde yaz, düzelt
+cardlar dark mode da iyi çalışmıyor.
+yazarları düzelt
+
+
+Footer da contact kısmını koy
+Dark mode butonunu custom yap, bootstrap çok belli
+Refaransları yaz
+who am I kısmını tekrar yaz gptsiz
+contact kısmını yazı olarak düzelt
+yazıları bitir
+background photoyu ayarla
 
