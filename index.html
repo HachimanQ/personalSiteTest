@@ -5,7 +5,26 @@
 
 <!doctype html>
 <html lang="en" data-bs-theme="light">
-  <head><script src="./assets/js/color-modes.js"></script>
+  <head><script src="../assets/js/color-modes.js" defer></script>
+<script>
+// Override to respect initial light mode setting
+document.addEventListener('DOMContentLoaded', function() {
+  // Force light mode on initial load
+  document.documentElement.setAttribute('data-bs-theme', 'light');
+  
+  // Update the toggle to show light as active
+  setTimeout(() => {
+    const lightButton = document.querySelector('[data-bs-theme-value="light"]');
+    const activeButton = document.querySelector('.dropdown-item.active');
+    
+    if (activeButton) activeButton.classList.remove('active');
+    if (lightButton) {
+      lightButton.classList.add('active');
+      lightButton.setAttribute('aria-pressed', 'true');
+    }
+  }, 100);
+});
+</script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
