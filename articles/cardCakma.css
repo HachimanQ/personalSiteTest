@@ -265,3 +265,11 @@
   z-index: 15;
   display: block;
 }
+
+/* TO MAKE CAROUSEL REMAIN INTACT FROM */
+rect {
+  fill: #171717a8;
+}
+h1, .carousel-secondary-title {
+  color: #fff !important;
+}
